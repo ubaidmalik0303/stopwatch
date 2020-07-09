@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid black;
+    width: 900px;
+    border-radius: 100px;
+    padding: 10px 0;
+    position: relative;
+    margin: 10px auto 0 auto;
+    background-image: linear-gradient(to right , grey , red);
+}
+
+p{
+    font-size: 52px;
+    color: white;
+    text-align: center;
+}
+
+.meter-row{
+    border-radius: 5px;
+    width: 505px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 16px;
+    background-color: black;
+    color: white;
+    font-size: 62px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.watch-btn{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+.watch-btn input:first-child{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.watch-btn input:last-child{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.watch-btn input:nth-child(2) , .watch-btn input:nth-child(3){
+    width: 49.3%;
+    margin: 20px 0 0 0;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#record-box{
+    width: 30%;
+    margin: 10px auto;
+    height: 150px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+#record-box ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 768px){
+
+    .container{
+        border: 1px solid black;
+        width: 100%;
+        border-radius: 100px;
+        padding: 10px 10px;
+        position: relative;
+        margin: 10px auto 0 auto;
+        background-image: linear-gradient(to right , grey , red);
+    }
+
+    .meter-row{
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px 10px;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    h1{
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 52px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .watch-btn{
+        width: 100%;
+        padding: 5px 5px;
+        margin: 0 auto;
+    }
+
+    .watch-btn input:first-child{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+
+    .watch-btn input:last-child{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid white;
+    }
+
+    .watch-btn input:nth-child(2) , .watch-btn input:nth-child(3){
+        width: 100%;
+        margin: 20px 0 0 0;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    #record-box{
+        width: 70%;
+        margin: 10px auto;
+        height: 150px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        overflow-y: scroll;
+    }
+
+}
